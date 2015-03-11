@@ -1,0 +1,9 @@
+{application, rcouch, [
+	{description, "an alternative couchdb distribution"},
+	{vsn, git},
+	{applications, [
+		couch, couch_dbupdates, couch_httpd, couch_index, couch_mrview,
+		couch_randomdoc, couch_replicator, geocouch
+	]},
+	{env, []}
+]}.
